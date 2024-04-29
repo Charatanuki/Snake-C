@@ -3,6 +3,7 @@
 #include "PlayerValues.h"
 #include "MainValues.h"
 #include "Apple.h"
+#include "Tail.h"
 
 void renderPlayer(SDL_Renderer* renderer, Player* player) {
     SDL_Rect playerRect = { player->pX, player->pY,
@@ -63,8 +64,12 @@ updatePosPlayer(Player* player) {
 }
 
 
-void collisions(Player* player) {
+void collisions(Player* player, Tail tail) {
     if (abs(player->pX - get_apple_posX()) < 50 && abs(player->pY - get_apple_posY()) < 50) {
+        initTails(&tail, player->dx, player->dy, 
+            player->pX, player->pY, player->tailLenght);
+        player->tailLenght++;
         generate_new_apple_pos();
     }
 }
+

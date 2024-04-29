@@ -134,11 +134,11 @@
   <ItemGroup>
     <ClCompile Include="Apple.c" />
     <ClCompile Include="Init.c" />
-    <ClCompile Include="InitLoop.c" />
     <ClCompile Include="InitPlayer.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="Loop.c" />
     <ClCompile Include="player.c" />
+    <ClCompile Include="Tail.C" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Apple.h" />
@@ -146,6 +146,7 @@
     <ClInclude Include="Loop.h" />
     <ClInclude Include="MainValues.h" />
     <ClInclude Include="PlayerValues.h" />
+    <ClInclude Include="Tail.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -21,9 +21,6 @@
     <ClCompile Include="Init.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="InitLoop.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Loop.c">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -34,6 +31,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Apple.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tail.C">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -51,6 +51,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Apple.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tail.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
